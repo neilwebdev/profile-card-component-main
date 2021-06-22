@@ -1,8 +1,142 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #179ba8;
+}
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: azure;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.top-container {
+  height: 180px;
+  border-radius: 10px;
+}
+#top-image {
+  width: 500px;
+  height: 180px;
+  border-radius: 10px 10px 0 0;
+}
+
+.middle-container {
+  width: 500px;
+  height: 200px;
+  background-color: white;
+  position: relative;
+}
+
+.victor {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  position: absolute;
+  left: 0;
+  top: -200px;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  height: 8em;
+}
+
+.name {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  top: 90px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  font-weight: 900;
+  font-size: 1.3em;
+}
+.city {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  top: 135px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  color: grey;
+}
+#age {
+  color: grey;
+  padding-left: 5px;
+}
+.bottom-container {
+  position: relative;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border-radius: 0 0 10px 10px;
+  width: 500px;
+  height: 120px;
+  background-color: #fff;
+  border-top: 1px solid lightgrey;
+}
+
+.followers {
+  width: 33.3%;
+  height: 120px;
+  display: inline;
+  text-align: center;
+}
+
+.likes {
+  width: 33.3%;
+  height: 120px;
+  display: inline;
+  text-align: center;
+}
+.photos {
+  width: 33.3%;
+  height: 120px;
+  display: inline;
+  text-align: center;
+}
+
+.bottom-container p:nth-child(1) {
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.bottom-container p:nth-child(2) {
+  margin-top: -10px;
+  font-size: 0.9em;
+  color: darkgrey;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: #fff;
+}
+
+.circle1 {
+  width: 50%;
+  position: absolute;
+  top: -40vh;
+  left: -50px;
+  color: #34cabe;
+  transform: rotate(140deg);
+}
+
+.circle2 {
+  width: 50%;
+  position: absolute;
+  bottom: -50vh;
+  right: -50px;
 }
